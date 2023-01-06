@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>Nerchukuntae_Manchidi</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
         <members>*</members>
         <name>LightningComponentBundle</name>
     </types>
+    <types>
+        <members>Coder_Samples</members>
+        <name>FlexiPage</name>
+    </types>
+    FlexiPage
     <version>55.0</version>
 </Package>
