@@ -2,7 +2,7 @@
 I have to do...
 
 # LWC Practice App
- Sample LWC playground components created in the dev session - Jan 5
+ Sample LWC playground components created in the dev session - Jan 6
  
 <a href="https://githubsfdeploy.herokuapp.com">
   <img alt="Deploy to Salesforce"
