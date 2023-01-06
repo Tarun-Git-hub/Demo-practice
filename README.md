@@ -20,7 +20,7 @@ I have to do...
 
  
 # Live Demo
-Live Practice on the Scratch Org: https://hosted-scratch.herokuapp.com/launch?template=https://github.com/Tarun-Git-hub/Demo-practice.git
+Live Practice on the Scratch Org: https://hosted-scratch.herokuapp.com/launch?template=https://github.com/Tarun-Git-hub/Demo-practice
 
 # Preview
 
