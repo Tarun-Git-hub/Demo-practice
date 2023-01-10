@@ -24,4 +24,4 @@ Live Practice on the Scratch Org: https://hosted-scratch.herokuapp.com/launch?te
 
 # Preview
 
-![image](https://user-images.githubusercontent.com/108521541/210954044-e37769fc-eea4-49dd-aeeb-3e1f491cd183.png)
+![image](https://user-images.githubusercontent.com/108521541/211580825-f05bdcb4-fc42-43c3-9963-02d4a4bb1933.png)
