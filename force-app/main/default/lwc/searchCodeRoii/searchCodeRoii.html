@@ -1,12 +1,12 @@
 <template>
-    <lightning-card title="Search Anything">
-        <div onkeyup={handleKeyUp} class="gap">
-            <lightning-input name="enter-search" label="Search when user hits the 'enter' key"
-                type="search"></lightning-input>
+    <lightning-card title="GitHub Repositories Adda">
+        <div class="gap">
+            <marquee direction="right">Search any <b>Git Repo</b> you want...</marquee>
+            <lightning-input class="--slds-c-input-radius-border" name="Enter search Name" type="search"
+                 onchange={handleChange}></lightning-input>
         </div>
-        <p if:true={queryTerm}>
-            Searched for {queryTerm}!
-        </p>
-    </lightning-card>
 
+        <c-search-text-result></c-search-text-result>
+
+    </lightning-card>
 </template>

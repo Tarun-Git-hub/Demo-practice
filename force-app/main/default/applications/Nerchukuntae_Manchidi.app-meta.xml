@@ -4,7 +4,7 @@
         <headerColor>#5F9E8A</headerColor>
         <logo>indiainpicturesbeautifulplacestopho</logo>
         <logoVersion>1</logoVersion>
-        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
     </brand>
     <description>If you learn well you can play with code.....</description>
     <formFactors>Small</formFactors>
@@ -14,7 +14,7 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>😒..Nerchuko..</label>
     <navType>Standard</navType>
-    <tabs>standard-Account</tabs>
+    <tabs>Git_Repo__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Nerchukuntae_Manchidi_UtilityBar</utilityBar>
 </CustomApplication>

@@ -1,0 +1,20 @@
+<template>
+    <template if:true={retrivedRepo}>
+        <div class="grid">
+            <template for:each={retrivedRepo} for:item="gitRepos">
+                <div key={gitRepos.id}>
+                    <div class="lgc-bg">
+                        <lightning-tile label={gitRepos.name} href={gitRepos.html_url} type="media">
+                            <lightning-avatar slot="media" src={gitRepos.owner.avatar_url}
+                                fallback-icon-name="standard:person_account"
+                                alternative-text={gitRepos.login}></lightning-avatar>
+                        
+                            <lightning-button-icon icon-name="action:approval" alternative-text="Approval" title="Add" onclick={handleOnSelected}></lightning-button-icon>
+
+                        </lightning-tile>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </template>
+</template>

@@ -1,0 +1,14 @@
+.lgc-bg{
+    background-color: rgb(178, 205, 196);
+    width: 12vw;
+    border: 2px;
+    padding: 0.5rem;
+    border-radius: 6rem;
+    margin: 0.3rem;
+    padding-left: 1.5rem;
+  }
+  .grid{
+   display: flex;
+   flex-wrap:wrap;
+   padding-left:4rem;
+  }

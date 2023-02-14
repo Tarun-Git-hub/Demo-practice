@@ -1,12 +1,18 @@
-import { LightningElement } from 'lwc';
+import { LightningElement, wire } from 'lwc';
+import { publish, MessageContext } from 'lightning/messageService';
+import searchContent from '@salesforce/messageChannel/MessageChannelForCoversations__c';
+
 
 export default class SearchCodeRoii extends LightningElement {
-    queryTerm;
+    inputRepo='';
 
-    handleKeyUp(evt) {
-        const isEnterKey = evt.keyCode === 13;
-        if (isEnterKey) {
-            this.queryTerm = evt.target.value;
-        }
+
+    @wire(MessageContext)
+    messageContext;
+    handleChange(event) {
+        let inputvalue = this.template.querySelectorAll("lightning-input")[0].value;
+        const payload = { searchInput: inputvalue };
+
+        publish(this.messageContext, searchContent, payload);
     }
 }

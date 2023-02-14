@@ -1,6 +1,54 @@
 <template>
-    <lightning-card title="See...The text is displaying....😎">
+    <!--lightning-card title="See...The text is displaying....😎">
         <h1 class="space">This is the result from the search bar</h1>
+    </lightning-card-->
+
+    <lightning-card title="Git Repos List..🐶🤟">
+        <template if:true={gettingRepos}>
+            <div class="grid">
+                <template for:each={gettingRepos} for:item="gitRepos">
+                    <div key={gitRepos.id}>
+                        <div class="lgc-bg">
+                            <lightning-tile label={gitRepos.name} href={gitRepos.html_url} type="media">
+                                <lightning-avatar slot="media" src={gitRepos.owner.avatar_url}
+                                    fallback-icon-name="standard:person_account"
+                                    alternative-text={gitRepos.login}></lightning-avatar>
+
+                                <span class="icon has-text-success">
+                                    <i class="fas fa-check-square"></i>
+                                </span>
+                            </lightning-tile>
+                           
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </template>
+        <!--lightning-button variant="brand" label="SaveUser" title="Primary action" onclick={handleSaveUserClick}
+                class="slds-m-left_x-small"></lightning-button>
+
+        <template if:true={gettingRepos}>
+            The selected Repo Name <b>{selectedRepo}</b>
+        </template>
+
+        <template if:true={gettingRepos}>
+
+            <template for:each={gettingRepos} for:item="retrivedRepos">
+                <div key={retrivedRepos.id}>
+
+                    <c-search-code-child-anta retrived-repo={gettingRepos}
+                        onuserclicked={handleonuserclicked}></c-search-code-child-anta>>
+
+                </div>
+
+
+            </template>
+
+        </template-->
     </lightning-card>
-   
+    <span class="icon has-text-success">
+        <i class="fas fa-check-square"></i>
+        <span>success</span>
+    </span>
+    
 </template>

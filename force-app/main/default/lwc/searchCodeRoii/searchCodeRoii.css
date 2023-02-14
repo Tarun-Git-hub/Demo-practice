@@ -1,7 +1,10 @@
 :host {
-    --padding-value:1rem;
+    --padding-value:0.4rem 4rem 0.6rem 4rem;
+    --slds-c-input-radius-border:30rem;
+
 }
 
-.gap{
+.gap{ 
     padding:var(--padding-value);
+    font-style: italic;
 }
