@@ -42,7 +42,6 @@ export default class SearchTextResult extends LightningElement {
         console.log('handleMessage:', message);
         this.repoName = message.searchInput;
         let queryEndPoint = QUERY_USER_ENDPOINT_URL + this.repoName;
-        console.log('queryEndPoint--->', queryEndPoint);
         try {
             const RESPONSE = await fetch(queryEndPoint);
             const REPO_LIST = await RESPONSE.json();
@@ -57,7 +56,8 @@ export default class SearchTextResult extends LightningElement {
         unsubscribe(this.subscription);
         this.subscription = null;
     }
-    handleonuserclicked(event) {
-     this.selectedRepo = event.detail;
+    handleonuserclicked(){
+        
     }
+    
 }

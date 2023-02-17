@@ -14,41 +14,17 @@
                                     fallback-icon-name="standard:person_account"
                                     alternative-text={gitRepos.login}></lightning-avatar>
 
-                                <span class="icon has-text-success">
-                                    <i class="fas fa-check-square"></i>
-                                </span>
-                            </lightning-tile>
+                                    <!--lightning-button-icon icon-name="utility:adduser" alternative-text="Add user" class="slds-m-left_xx-small" title="Add repo" onclick={handleonuserclicked}></lightning-button-icon-->
+                                </lightning-tile>
                            
                         </div>
                     </div>
                 </template>
             </div>
         </template>
-        <!--lightning-button variant="brand" label="SaveUser" title="Primary action" onclick={handleSaveUserClick}
-                class="slds-m-left_x-small"></lightning-button>
 
-        <template if:true={gettingRepos}>
-            The selected Repo Name <b>{selectedRepo}</b>
-        </template>
+       
 
-        <template if:true={gettingRepos}>
-
-            <template for:each={gettingRepos} for:item="retrivedRepos">
-                <div key={retrivedRepos.id}>
-
-                    <c-search-code-child-anta retrived-repo={gettingRepos}
-                        onuserclicked={handleonuserclicked}></c-search-code-child-anta>>
-
-                </div>
-
-
-            </template>
-
-        </template-->
     </lightning-card>
-    <span class="icon has-text-success">
-        <i class="fas fa-check-square"></i>
-        <span>success</span>
-    </span>
-    
+
 </template>

@@ -3,10 +3,9 @@
         <div class="gap">
             <marquee direction="right">Search any <b>Git Repo</b> you want...</marquee>
             <lightning-input class="--slds-c-input-radius-border" name="Enter search Name" type="search"
-                 onchange={handleChange}></lightning-input>
+                onchange={handleChange}></lightning-input>
         </div>
-
-        <c-search-text-result></c-search-text-result>
-
+         Tracked variable ---> <b>{inputRepo}</b>
+         <c-search-text-result></c-search-text-result>
     </lightning-card>
-</template>
+</template> 

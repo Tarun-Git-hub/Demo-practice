@@ -12,7 +12,7 @@ export default class SearchCodeRoii extends LightningElement {
     handleChange(event) {
         let inputvalue = this.template.querySelectorAll("lightning-input")[0].value;
         const payload = { searchInput: inputvalue };
-
+          this.inputRepo = inputvalue.toUpperCase();
         publish(this.messageContext, searchContent, payload);
     }
 }

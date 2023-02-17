@@ -2,10 +2,10 @@ import { LightningElement,api } from 'lwc';
 
 export default class SearchCodeChildAnta extends LightningElement {
     @api retrivedRepo;
-    handlebuttonClick(){
-        const selectedEvent = new CustomEvent('userclicked', { detail: this.retrivedRepo.name});
 
-        // Dispatches the event.
+    handleButtonClick(){
+        const selectedEvent = new CustomEvent('selected', { detail: this.retrivedRepo.name });
+       // Dispatch the event.
         this.dispatchEvent(selectedEvent);
     }
 }
