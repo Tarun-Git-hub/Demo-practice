@@ -39,7 +39,7 @@
         <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
     </networkPageOverrides>
     <picassoSite>Demo_Example1</picassoSite>
-    <selfRegProfile>Experience cloud user</selfRegProfile>
+    <selfRegProfile>Demo Example Profile</selfRegProfile>
     <selfRegistration>true</selfRegistration>
     <sendWelcomeEmail>true</sendWelcomeEmail>
     <site>Demo_Example</site>
