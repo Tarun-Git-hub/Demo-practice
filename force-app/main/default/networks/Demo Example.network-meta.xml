@@ -29,7 +29,6 @@
     <gatherCustomerSentimentData>false</gatherCustomerSentimentData>
     <networkMemberGroups>
         <profile>Admin</profile>
-        <profile>Demo Example Profile</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
@@ -39,7 +38,6 @@
         <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
     </networkPageOverrides>
     <picassoSite>Demo_Example1</picassoSite>
-    <selfRegProfile>Demo Example Profile</selfRegProfile>
     <selfRegistration>true</selfRegistration>
     <sendWelcomeEmail>true</sendWelcomeEmail>
     <site>Demo_Example</site>
